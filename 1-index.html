@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f6efd9">
+  <meta name="description" content="סוכות - תודעה. אנרגיה. הלל. מפגש עומק והשראה על הכוח הרוחני של חג הסוכות ותפילת ההלל.">
+  <title>סוכות - תודעה. אנרגיה. הלל.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Frank+Ruhl+Libre:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="sun"></div>
+    <div class="petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">והכינו מועד</span>
+        <h1>סוכות<br><em>תודעה. אנרגיה. הלל.</em></h1>
+        <div class="heart-line"><span></span>❧<span></span></div>
+        <p class="lead">מפגש עומק והשראה על הכוח הרוחני של חג הסוכות, על החיבור העמוק ועל תפילת ההלל</p>
+        <div class="notice">מועד המפגש והפרטים המלאים יפורסמו בהמשך</div>
+        <a class="cta" href="#registration">אני רוצה להצטרף <span>←</span></a>
+      </div>
+      <figure class="flyer-frame">
+        <img src="flyer.jpg" alt="הזמנה למפגש סוכות - תודעה, אנרגיה והלל">
+      </figure>
+    </div>
+  </header>
+
+  <main>
+    <section class="why">
+      <div class="wrap">
+        <p class="section-kicker">איך להפוך את ההלל מתפילה שאנחנו אומרים</p>
+        <h2>לחיים שאנחנו חיים?</h2>
+        <div class="cards">
+          <article><span class="icon">▤</span><h3>עיון בתפילת הלל</h3><p>מזווית חדשה</p></article>
+          <article><span class="icon">☀</span><h3>השראה</h3><p>לחיי היומיום</p></article>
+          <article><span class="icon">❧</span><h3>תודעה</h3><p>של שפע</p></article>
+          <article><span class="icon">♡</span><h3>חיבור עמוק</h3><p>לשמחה</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="registration" id="registration">
+      <div class="wrap registration-grid">
+        <div class="form-intro">
+          <p class="section-kicker">הצטרפו אלינו</p>
+          <h2>רוצים לקבל את פרטי המפגש?</h2>
+          <p>השאירו שם, מייל וטלפון. נשלח את מועד המפגש ואת כל הפרטים כשיפורסמו.</p>
+          <ul>
+            <li>הודעה כשהמועד ייקבע</li>
+            <li>פרטי ההשתתפות המלאים</li>
+            <li>עדכונים הקשורים למפגש בלבד</li>
+          </ul>
+        </div>
+
+        <form class="form-card" id="registration-form" method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSdBCjx43CnAQT5L4iRknkRQuN0sFpyaRRrzuAcOo5kE2pyJXw/formResponse">
+          <label>שם מלא
+            <input name="entry.1636391445" autocomplete="name" required placeholder="איך קוראים לך?">
+          </label>
+          <label>מספר טלפון
+            <input type="tel" name="entry.1729416911" autocomplete="tel" required inputmode="tel" dir="ltr" placeholder="050-0000000" pattern="[+0-9() -]{9,20}">
+          </label>
+          <label>כתובת מייל
+            <input type="email" name="entry.387915375" autocomplete="email" required inputmode="email" placeholder="name@example.com">
+          </label>
+          <label class="consent"><input type="checkbox" name="consent" value="כן" required><span>אני מאשר/ת לקבל עדכונים הקשורים למפגש.</span></label>
+          <button type="submit">אני רוצה להצטרף <span>←</span></button>
+          <p class="privacy">הפרטים ישמשו לעדכונים על המפגש בלבד.</p>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>יהדות · חסידות · תודעה · עבודה פנימית</p><small>סוכות הוא לא רק חג, הוא הזמנה</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
